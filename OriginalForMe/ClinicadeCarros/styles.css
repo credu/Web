@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: url(./img/masthead_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    height: 27%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 100vh;
+}
+
+/* Navegacion */
+.nav-main {
+    position: fixed !important;
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+}
+
+.nav-main {
+    position: absolute;
+    width: 71.8%;
+    height: 7.3%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 21.2%;
+    padding-right: 7%;
+}
+
+.nav-list-l {
+    list-style: none;
+    margin-right: auto;
+}
+
+.nav-list-r {
+    list-style: none;
+    margin-left: auto;
+}
+
+.nav-item {
+    color: #212529;
+    font-family: "Merriweather Sans";
+    font-weight: 700;
+    padding: 0 1rem;
+}
+
+.nav-brand {
+    color: #f4623a;
+    font-family: "Merriweather Sans";
+    font-weight: bold;
+    font-size: 124.3%;
+    font-weight: 700;
+    
+}
+
+/* Servicios */
+.servicios {
+    height: 50vh;
+    background-color: #34495E;
+}
+
+.about {
+    height: 33vh;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    justify-content: center;
+}
+
+/* Global  */
+body::-webkit-scrollbar {
+    width: 7px;
+    background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #4091EC;
+    border-radius: 5px;
+}
+
+.titulo {
+    font-family: 'Oswald';
+    line-height: 1.2;
+    color: #fff;
+}
+
+.texto {
+    color: #fff;
+    line-height: 1.4;
+    margin-top: 1rem;
+}
+
+.text-center {
+    text-align: center;
+    align-items: center;
+}
